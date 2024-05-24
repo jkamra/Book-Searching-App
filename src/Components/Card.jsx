@@ -26,7 +26,8 @@ const Card = ({ book }) => {
                               <Modal show={show} item={bookItem} onClose={()=>setShow(false)}/>
                             </>
                         )
-                    }
+                    } else 
+                    return <></>;
                     
                 })
             }
